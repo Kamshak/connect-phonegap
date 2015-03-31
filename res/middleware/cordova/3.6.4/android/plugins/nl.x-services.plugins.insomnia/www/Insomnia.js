@@ -1,4 +1,4 @@
-cordova.define("nl.x-services.plugins.insomnia.Insomnia", function(require, exports, module) { function Insomnia() {
+function Insomnia() {
 }
 
 Insomnia.prototype.keepAwake = function (successCallback, errorCallback) {
@@ -19,4 +19,3 @@ Insomnia.install = function () {
 };
 
 cordova.addConstructor(Insomnia.install);
-});
