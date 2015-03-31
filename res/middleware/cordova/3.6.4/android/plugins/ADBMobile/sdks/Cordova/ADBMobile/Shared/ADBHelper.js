@@ -1,4 +1,4 @@
-/*************************************************************************
+cordova.define("ADBMobile.ADBHelper", function(require, exports, module) { /*************************************************************************
  *
  * ADOBE CONFIDENTIAL
  * ___________________
@@ -131,3 +131,4 @@ var ADB = (function () {
 
 	return ADB;
 }());
+});
